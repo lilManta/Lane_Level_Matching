@@ -1,0 +1,51 @@
+---------------------------------------------------------------------------
+This script shows some conventions for the coordinates used in this project
+---------------------------------------------------------------------------
+
+-------------
+Krüger Zone 4
+-------------
+Shortcut: 	GK4
+EPSG Code:	31468
+first variable:	Rechtswert (east)
+sec vairable:	Hochwert (north)
+e.g. munich:	[4467000, 5329000]
+bbox coords:	[4466125, 5344848], [4478687, 5355633]
+
+---------------------
+World Geodetic System
+---------------------
+Shortcut: 	WGS84
+EPSG Code:	4258
+first axis:	longitude (east)
+sec axis:	latitude (north)
+e.g. munich:	[11.5, 48.1]
+bbox coords:	[11.5003, 48.1464], [11.7176, 48.3389]
+
+-----------
+UTM Zone 32
+-----------
+Shortcut: 	ETRS89/UTM
+EPSG Code:	25832
+first axis:	east
+sec axis:	north
+e.g. munich:	[691000, 5331000]
+bbox coords:	[689458, 5345411], [700900, 5357445]
+
+
+
+
+--------
+Sources:
+--------
+________________________________________________________________
+The Axis order of a CRS - https://geopandas.org/projections.html
+This mentions the order as (lat, lon), as that is the official order of coordinates in EPSG:4326. 
+In GeoPandas, however, the coordinates are always stored as (x, y), and thus as (lon, lat) ^=(east, north)
+______________________________________
+UTM Abfrage BAYSIS
+Bsp. Aschaffenburg A3
+Nord 		  Ost
+----------------- -----------------
+5537694.938035354 501075.7606464924
+___________________________________

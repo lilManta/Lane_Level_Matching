@@ -1,0 +1,23 @@
+Street: St 2350, seconds: 473
+Street: A 92 oneWay, seconds: 38
+Street: A 92, seconds: 192
+Street: A 9 oneWay, seconds: 71
+Street: A 9, seconds: 218
+Street: A 9 oneWay, seconds: 29
+Street: B 471, seconds: 378
+Street: St 2053, seconds: 126
+Street: B 13, seconds: 11
+Street: St 2053 oneWay, seconds: 5
+Street: St 2053, seconds: 354
+Street: A 9 oneWay, seconds: 2
+Street: St 2053, seconds: 245
+Street: St 2053 oneWay, seconds: 11
+Street: St 2053, seconds: 115
+Street: St 2053 oneWay, seconds: 7
+Street: St 2350, seconds: 285
+
+Lane 1, seconds: 1972, percentage: 77.0
+Lane 2, seconds: 161, percentage: 6.3
+Lane 3, seconds: 204, percentage: 8.0
+Lane 4, seconds: 223, percentage: 8.7
+Lane 5, seconds: 0, percentage: 0.0

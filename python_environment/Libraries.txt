@@ -1,0 +1,24 @@
+numpy
+matplotlib
+mplleaflet	
+pandas
+pickle
+geopandas
+sklearn
+geographiclib
+geopy
+progressbar
+openpyxl
+
+pyinstrument (only for profiler)
+
+
+Setup in anaconda with environment.yml file or with following commands:
+conda install geopandas (works best as first install)
+conda install matplotlib
+conda install pandas
+conda install -c conda-forge mplleaflet
+conda install -c conda-forge geopy
+conda install progressbar2
+conda install -c conda-forge scikit-learn
+conda install openpyxl
